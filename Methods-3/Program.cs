@@ -13,7 +13,7 @@ namespace Methods_3
         static void Loop()
         {
             count = count + 1;
-            Console.WriteLine("This is Loop." + count);
+            Console.WriteLine("This is Loop: " + count);
             Loop();
         }
         
